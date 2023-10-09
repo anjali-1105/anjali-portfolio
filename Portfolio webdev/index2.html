@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- Font Awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- custom js link -->
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Header section starts -->
+
+    <section class="header">
+        <a href="index.html" class="logo"></a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="experience.html">Experience</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+
+    <!-- Header section ends -->
+
+
+    <!-- About me starts-->
+    <div class="loader">
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+    </div>
+
+    <div class="container">
+        <span class="auto-type"></span>
+    </div>
+
+    <div class="self">
+        <h1>I create stuff sometimes.</h1>
+        <p>I'm currently a student pursuing my B.Tech degree.
+            I have great interest in designing stuffs, web-development and learning about new technical skills.
+        </p>
+    </div>
+
+
+    <!-- About me ends -->
+
+
+    <!-- About me image starts -->
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <div class="title"><img src="Anjali.jpg" alt=""></div>
+            </div>
+            <div class="flip-card-back">
+                <div class="title">Anjali Prajapati</div>
+                <p>- ICT Undergrad</p>
+                <p>- Web Developer</p>
+                <p>- Competitive Programmer</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About me image ends -->
+
+
+    <!-- About Me Starts-->
+
+    <div class="content">
+        <h3 class="hr-lines">/ about me</h3>
+        <p>An ICT engineering student at Adani University.
+            A self motivated and an enthusiastic techie.
+            Having knowledge in web development, Python, Data Science
+            and Machine Learning. Continuous learner of new technologies,
+            strategies and tools to develop whimsical ideas.</p>
+        <p>Here are some technologies I have been working with:</p>
+
+    </div>
+
+    <ul class="tech">
+        <li> HTML & CSS</li>
+        <li> Python</li>
+        <li> C</li>
+        <li> React.js</li>
+    </ul>
+
+    <div class="content2">
+        <p>Outside of work I'm interested in following the
+            developments of science. I also play a lot of sports.
+            And enjoy singing, dancing and painting.</p>
+
+    </div>
+
+
+    <!-- About me ends -->
+
+
+    <!-- Experience Starts -->
+    <button id="button1">
+        press me
+    </button>
+
+    <div class="showOnPress" id="showClick">
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quae fugiat deleniti maxime modi, eligendi
+        dicta repellendus distinctio sed odit aut exercitationem iure recusandae suscipit veritatis aspernatur expedita
+        magnam unde!
+
+    </div>
+
+    <div class="content3">
+        <h3 class="hr-lines">/ experience</h3>
+
+        <div class="resume">
+            <p class="sub-para">I am always eager and excited to work on new things and
+                learn new skills.</p>
+
+
+            <div class="discription">
+
+
+                <div class="exp-btns">
+                    <button class="exp-select" id="expbtn1">
+                        Alpha- MLSA
+                    </button>
+                    <button class="exp-select" id="expbtn2">
+                        Beta - MLSA
+                    </button>
+                    <button class="exp-select" id="expbtn3">
+                        GPCSSI 2021 Intern
+                    </button>
+
+                </div>
+                <div class="exp-content">
+                    <h4 id="exp-title">Alpha- Microsoft Learn Student Ambassador</h4>
+                    <span id="exp-date">July 2021 - Feb 2022</span>
+                    <p id="exp-body">I'm obsessed with Microsoft Learn Student Ambassadors activities these days
+                        and super excited to unlock my benefits of free access to Azure, LinkedIn learnings, and
+                        free certificate exams.</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Experience ends -->
+
+        <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+
+
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["hi, Anjali here."],
+                typeSpeed: 150,
+                loop: false
+            })
+
+        </script>
+
+        <script src="code.js"></script>
+
+
+
+</body>
